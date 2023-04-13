@@ -1,0 +1,42 @@
+form {
+  justify-content: center;
+  justify-items: left;
+  width: 300px;
+  height: 450px;
+  border: 3px double rgb(16, 216, 199);
+  border-color: rgb(16, 216, 199);
+  border-radius: 30px;
+  padding: 20px;
+  background: linear-gradient(
+    to right,
+    rgb(12, 220, 171),
+    /* rgb(104, 9, 159) */ rgb(213, 7, 141)
+  );
+  display: inline-block;
+  /* opacity: 0.6; */
+}
+body {
+  padding-left: 40%;
+  padding-top: 10%;
+  background: linear-gradient(
+    to right,
+    rgb(55, 53, 53),
+    black,
+    rgb(57, 51, 51)
+  );
+}
+.but {
+  border-radius: 5px;
+  color: rgba(238, 241, 160, 0.957);
+  background-color: black;
+  cursor: pointer;
+  justify-items: center;
+  height: 30px;
+  width: 70px;
+}
+input {
+  font-weight: 500px;
+}
+h1 {
+  padding: 2px;
+}

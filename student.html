@@ -1,0 +1,157 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./stup.css">
+    <title>Document</title>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/a/ae/Vignan_logo.png" rel="icon" type="image/x-icon" />
+
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(216, 146, 169), rgb(220, 108, 145), rgb(208, 140, 163));
+            padding: 30px;
+        }
+
+        .h3 {
+            color: aliceblue;
+            align-items: center;
+        }
+
+        .boxed {
+            width: 500px;
+            border: 20px solid rgb(237, 213, 213);
+            padding: 80px;
+            background-color: rgb(228, 93, 136);
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 10px;
+            /* overflow-y: hidden; */
+        }
+
+        .btn {
+            border-radius: 10px;
+            color: black;
+            background-color: khaki;
+        }
+    </style>
+    <script>
+        function fun() {
+            document.getElementById('ho').innerHTML = "FIRST NAME:" + document.getElementById('first name').value;
+            document.getElementById('ho1').innerHTML = "LAST NAME:" + document.getElementById('last name').value;
+            document.getElementById('ho2').innerHTML = "FATHER NAME:" + document.getElementById('ft').value;
+            document.getElementById('ho3').innerHTML = "MOTHER NAME:" + document.getElementById('mt').value;
+            document.getElementById('ho4').innerHTML = "EMAIL:" + document.getElementById('email').value;
+            document.getElementById('ho5').innerHTML = "GENDER:" + document.getElementsByName('gender').value;
+            document.getElementById('ho6').innerHTML = "DATE OF BIRTH:" + document.getElementById('dob').value;
+            document.getElementById('ho7').innerHTML = "NATIONALITY:" + document.getElementsByName('drop').value;
+            document.getElementById('ho10').innerHTML = "FATHER'S occupation:" + document.getElementsByName('dropdown').value;
+            document.getElementById('ho8').innerHTML = "CONTACT NUMBER:" + document.getElementById('phn').value;
+            document.getElementById('ho9').innerHTML = "ADDRESS:" + document.getElementById('ad').value;
+            document.getElementById('ho11').innerHTML = "CONTACT NUMBER:" + document.getElementById('phn').value;
+            document.getElementById('ho12').innerHTML = "ADDRESS:" + document.getElementById('ad').value;
+        }
+    </script>
+</head>
+
+<body>
+    <h3 class="h3">STUDENT PERSONAL INFORMATION</h3>
+    <div class="boxed">
+        <div class="a">
+            <form>
+                <div class="b">
+                    <label for="first name">FIRST NAME: </label>
+                    <input type="text" name="first name" id="first name" class="first name">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="last name">LAST NAME: </label>
+                    <input type="text" name="last name" id="last name" class="last name">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="ft">FATHER NAME: </label>
+                    <input type="text" name="ft" id="ft" class="ft">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="mt">MOTHER NAME: </label>
+                    <input type="text" name="mt" id="mt" class="mt">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="email">EMAIL: </label>
+                    <input type="email" name="email" id="email" class="email">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="gender">GENDER: </label>
+                    <input type="radio" name="gender" id="gender1" class="gender" value="MALE">MALE
+                    <input type="radio" name="gender" id="gender" class="gender" value="FEMALE">FEMALE
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="dob">DATE OF BIRTH: </label>
+                    <input type="date" name="dob" id="dob" class="dob"><br>
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="nationality">NATIONALITY: </label>
+                    <select name="dropdown">
+                        <option value="indian" name="drop">INDIAN</option>
+                        <option value="other" name="drop">OTHER</option>
+                    </select><br>
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="fathers occupation">FATHER'S occupation :</label>
+                    <select name="dropdown">
+                        <option value="private employee">private employee</option>
+                        <option value="government employee">government employee</option>
+                    </select><br>
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="phn">CONTACT NUMBER:</label>
+                    <input type="number" name="phn" id="phn" class="phn">
+                </div>
+                <pre></pre>
+                <div>
+                    <label for="add" class="ad">ADDRESS :</label>
+                    <textarea rows="3" cols="40" name="add" class="q" id="ad"
+                        placeholder="ENTER ADDRESS HERE"></textarea>
+                </div>
+                <pre></pre>
+                <div>
+                    <input type="button" value="SUBMIT" class="btn" onclick="fun()">
+                </div>
+                <pre></pre>
+
+            </form>
+        </div>
+
+        <div class="y">
+            <p><b>THE DETAILS ARE: </b></p><br>
+            <p id="ho"></p><br>
+            <p id="ho1"></p><br>
+            <p id="ho2"></p><br>
+            <p id="ho3"></p><br>
+            <p id="ho4"></p><br>
+            <p id="ho5"></p><br>
+            <p id="ho6"></p><br>
+            <p id="ho7"></p><br>
+            <p id="ho8"></p><br>
+            <p id="ho9"></p><br>
+            <p id="ho10"></p><br>
+            <p id="ho11"></p><br>
+            <p id="ho12"></p><br>
+        </div>
+        <pre></pre>
+        <a href="cse.html" target="_new" class="bt"><button class="btn">BACK</button></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+  padding: 0px;
+  border: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+form {
+  border: 5px dotted burlywood;
+  margin: 25px;
+  padding: 30px 25px;
+  box-shadow: black;
+  background: linear-gradient(
+    to right,
+    rgb(31, 25, 209),
+    rgb(19, 152, 214),
+    rgb(31, 25, 209)
+  );
+  position: fixed;
+  border-radius: 50px;
+  display: block;
+}
+label {
+  font-size: bolder;
+}
+.submit1 {
+  border-radius: 5px;
+  color: rgba(238, 241, 160, 0.957);
+  background-color: rgb(22, 7, 38);
+  cursor: pointer;
+  justify-items: center;
+  height: 30px;
+  width: 60px;
+  padding: 5px;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("signupp-transformed.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+}
+.div1 {
+  padding-left: 15%;
+  padding-top: 13%;
+  /* background-position: center; */
+}

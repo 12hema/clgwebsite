@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(212, 70, 122);
+  padding: 0;
+}
+div {
+  align-items: center;
+  height: 30%;
+  width: auto;
+  padding: 1px;
+}
+.vis,
+.mis,
+.cha {
+  height: 200px;
+  width: 300px;
+  /* border: 40px; */
+  /* padding: 50px;
+  border-radius: 5px; */
+}
+.div2 {
+  text-align: center;
+  background-color: cornflowerblue;
+  /* border: 3px solid darkblue; */
+}
+.div3 {
+  text-align: center;
+  background-color: rgb(77, 75, 221);
+  /* border: 3px solid rgb(15, 15, 56); */
+}
+.vis,
+.mis {
+  padding: 60px;
+}
+.cha {
+  padding: 10px;
+}
+.div4 {
+  padding-left: 30px;
+  background-color: cornsilk;
+  align-items: center;
+  font-weight: 200;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: center;
+  display: block;
+}
+/* p {
+  float: center;
+} */
+.con {
+  text-align: center;
+}
+h3 {
+  color: honeydew;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 3px;
+}
+h6 {
+  padding: 1px;
+}
+h1 {
+  text-align: center;
+  color: gainsboro;
+  font-weight: bold;
+}

@@ -1,0 +1,156 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./stup.css">
+    <title>Document</title>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/a/ae/Vignan_logo.png" rel="icon" type="image/x-icon" />
+
+    <style>
+        body {
+            background: linear-gradient(to right, rgba(133, 133, 224, 0.842), rgba(131, 131, 219, 0.842), rgba(152, 152, 216, 0.842));
+            padding: 30px;
+        }
+
+        .h3 {
+            color: aliceblue;
+        }
+
+        .boxed {
+            width: 500px;
+
+            padding: 80px;
+            background-color: rgba(99, 99, 221, 0.842);
+            border: 20px solid rgb(237, 213, 213);
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 10px;
+            /* overflow-y: hidden; */
+
+        }
+
+        .btn {
+            border-radius: 10px;
+            color: black;
+            background-color: khaki;
+        }
+    </style>
+    <script>
+        function fun() {
+            document.getElementById('ho').innerHTML = "FIRST NAME:" + document.getElementById('first name').value;
+            document.getElementById('ho1').innerHTML = "LAST NAME:" + document.getElementById('last name').value;
+            document.getElementById('ho2').innerHTML = "REGISTRATION NO:" + document.getElementById('reg').value;
+            document.getElementById('ho3').innerHTML = "BRANCH:" + document.getElementById('branch').value;
+            document.getElementById('ho4').innerHTML = "COURSE:" + document.getElementById('course').value;
+            document.getElementById('ho5').innerHTML = "SEM1:" + document.getElementById('sem1').value;
+            document.getElementById('ho6').innerHTML = "SEM2:" + document.getElementById('sem2').value;
+            document.getElementById('ho7').innerHTML = "SEM3:" + document.getElementById('sem3').value;
+            document.getElementById('ho8').innerHTML = "SEM4:" + document.getElementById('sem4').value;
+            document.getElementById('ho9').innerHTML = "SEM5:" + document.getElementById('sem5').value;
+            document.getElementById('ho10').innerHTML = "SEM6:" + document.getElementById('sem6').value;
+            document.getElementById('ho11').innerHTML = "SEM7:" + document.getElementById('sem7').value;
+            document.getElementById('ho12').innerHTML = "SEM8:" + document.getElementById('sem8').value;
+        }
+    </script>
+</head>
+
+<body>
+    <h3 class="h3">STUDENT ACADEMIC INFORMATION</h3>
+    <div class="boxed">
+        <div class="a">
+            <form>
+                <div class="b">
+                    <label for="first name">FIRST NAME:</label>
+                    <input type="text" name="first name" id="first name" class="first name">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="last name">LAST NAME:</label>
+                    <input type="text" name="last name" id="last name" class="last name">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="reg">REGISTRATION NO:</label>
+                    <input type="text" name="reg" id="reg" class="reg">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="branch">BRANCH:</label>
+                    <input type="text" name="branch" id="branch" class="branch">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="course">COURSE:</label>
+                    <input type="course" name="course" id="course" class="course">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem1">SEM 1:</label>
+                    <input type="text" name="sem1" id="sem1" class="sem1">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem2"> SEM 2:</label>
+                    <input type="text" name="sem2" id="sem2" class="sem2">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem3">SEM 3:</label>
+                    <input type="text" name="sem3" id="sem3" class="sem3">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem4">SEM 4:</label>
+                    <input type="text" name="sem4" id="sem4" class="sem4">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem5">SEM 5:</label>
+                    <input type="text" name="sem5" id="sem5" class="sem5">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem6">SEM 6</label>
+                    <input type="text" name="sem6" id="sem6" class="sem6">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem7">SEM 7:</label>
+                    <input type="text" name="sem7" id="sem7" class="sem7">
+                </div>
+                <pre></pre>
+                <div class="b">
+                    <label for="sem8">SEM 8:</label>
+                    <input type="text" name="sem8" id="sem8" class="sem8">
+                </div>
+                <pre></pre>
+                <div>
+                    <input type="button" value="SUBMIT" class="btn" onclick="fun()">
+                </div>
+                <pre></pre>
+            </form>
+        </div>
+        <div class="y">
+            <p><b>THE DETAILS ARE:</b></p><br>
+            <p id="ho"></p><br>
+            <p id="ho1"></p><br>
+            <p id="ho2"></p><br>
+            <p id="ho3"></p><br>
+            <p id="ho4"></p><br>
+            <p id="ho5"></p><br>
+            <p id="ho6"></p><br>
+            <p id="ho7"></p><br>
+            <p id="ho8"></p><br>
+            <p id="ho9"></p><br>
+            <p id="ho10"></p><br>
+            <p id="ho11"></p><br>
+            <p id="ho12"></p><br>
+        </div>
+        <pre></pre>
+        <a href="cse.html" target="_new" class="bt"><button class="btn">BACK</button></a>
+    </div>
+</body>

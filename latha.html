@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title> Login</title>
+  <link rel="stylesheet" href="login.css">
+  <link href="https://upload.wikimedia.org/wikipedia/commons/a/ae/Vignan_logo.png" rel="icon" type="image/x-icon" />
+  <script>
+    // function validateform() {
+    //   var name = document.myform.name.value;
+    //   var password = document.myform.password.value;
+
+    //   if (name == null || name == "") {
+    //     alert("Name can't be blank");
+    //     return false;
+    //   } else if (password.length < 6) {
+    //     alert("Password must be at least 6 characters long.");
+    //     return false;
+    //   }
+    // }
+  </script>
+</head>
+
+<body id="log">
+  <div class="div1">
+    <!-- <form name="myform" id="form" method="post" action="abc.jsp" onsubmit="return validateform()"> -->
+    <form name="myform" id="form" method="post" action="home.html">
+
+      <pre><h1 style="text-align: center; font-weight:bolder; color: rgb(8, 9, 22);">LOGIN</h1></pre>
+      <label>UserName:</label>
+      <input type="text" name="name" placeholder="Enter Email or Username" size="20" autocomplete="off" required />
+      <pre></pre>
+      <label>Password:</label>
+      <input type="password" name="password" placeholder="enter password" size="20" required />
+      <pre></pre>
+      <a href="#">forgot password</a>
+      <pre></pre>
+      <a href="home.html"><button type="submit" value="submit" class="submit1">Login</button></a>
+      <input type="reset" value="Clear" onclick="" class="submit1" />
+      <pre></pre>
+      Not a member? <a href="signup2.html">SignUp</a>
+      <pre></pre>
+    </form>
+  </div>
+</body>
+
+</html>
