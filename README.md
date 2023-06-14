@@ -5,6 +5,14 @@
 This project is all about the our college, little website with little specifications.
 
 ## Description
+
+I'm excited to build  the college website project to as a part of college project I study web development here. The objective of this project is to design a user-friendly website for my college which will operate as a central location for communication and interaction between students, staff, and visitors.
+
+The homepage in the web page will provide a summary of the college's identity, mission, and fundamental principles. Furthermore, it will offer complete information concerning educational programmes, professors, admission specifications, and campus infrastructure.
+
+
+The website contains student chapters that encourage communication and involvement in the community. A news and events page is also planned to inform the campus community of the latest activities, consisting of sessions, conferences, and cultural events. I designed this simply to test my skills.
+
 This is the basic project with
 #HTML 
 #CSS
@@ -38,3 +46,5 @@ Anyone who need basic form of any website using html,css and javascript can view
 
 View this link :
 (https://docs.google.com/document/d/1vDB7p-wsDxJKV8SBQUlBKbPpaH1ojdxk/edit?usp=share_link&ouid=114885601016108157734&rtpof=true&sd=true)
+
+
